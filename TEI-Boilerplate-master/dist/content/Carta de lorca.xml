@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Carta de Federico García Lorca a José María Chacón y Calvo</title>
+            <editor xml:id="TBJ">Thomas Jennings</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Proyecto Lorca en Cuba, SPA 322</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement> Coral Gables, Florida</settlement>
+                  <repository>Library Digital Collections, University of Miami</repository>
+                  <collection corresp="http://merrick.library.miami.edu/cubanHeritage/chc5324/">Federico García Lorca Papers</collection>
+                  <idno corresp="http://merrick.library.miami.edu/cdm/ref/collection/chc5324/id/2/rec/19">chc5324000003</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <docAuthor><forename>Federico</forename><surname>García Lorca</surname></docAuthor>
+                     <docTitle>
+                        <titlePart>Carta de Federico García Lorca a José María Chacón y Calvo</titlePart>
+                     </docTitle>
+                     <docImprint>
+                        <pubPlace>Granada, España</pubPlace>
+                     </docImprint>
+                     <docDate>Autumn</docDate>
+                     <note type="correspondencia">
+                        <persName type="emisor">Federico García Lorca</persName>
+                        <persName type="destinario">José María Chacón y Calvo</persName>
+                     </note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="carta">
+                     <supportDesc>
+                        <extent><dimensions>
+                           <height>9cm</height>
+                           <width>14cm</width>
+                        </dimensions></extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   
+   <text>
+      <body>
+         <div type="carta" n="1">
+            <pb facs="http://merrick.library.miami.edu/cdm/ref/collection/chc5324/id/2/rec/19"
+               n="link"/>
+            <div type="paratexto">
+               <ab>Tarjeta Postal<lb/>
+                  <placeName>Catedral. Detalle del Panteón de los Reyes Católicos</placeName>
+                  <placeName>Granada</placeName>
+               </ab>
+            </div>
+            <div type="texto">
+               <p>Un recuerdo desde Granada.</p>
+               <p>Ya pronto emperaria el Otoño.</p>
+               <p>Yo he pasado una malisima <lb/> temporada</p>
+               <p> tuve dia de profundidades <lb/>sentimentales con __ las cuales no <lb/>ha perdido lucha, mi __, ni <lb/>me alegria innata.</p>
+               <p>__ he recordado<lb/>bastante veces.</p>
+               
+               <closer>
+                  <salute>Adios José María</salute>
+                  <signed>Federico</signed>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
