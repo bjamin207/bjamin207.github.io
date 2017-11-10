@@ -55,8 +55,7 @@
    <text>
       <body>
          <div type="carta" n="1">
-            <pb facs="http://merrick.library.miami.edu/cdm/ref/collection/chc5324/id/2/rec/19"
-               n="link"/>
+            <pb facs="img/Page_2.jpg" n="recto"/>
             <div type="paratexto">
                <ab>Tarjeta Postal<lb/>
                   <placeName>Catedral. Detalle del Panteón de los Reyes Católicos</placeName>
